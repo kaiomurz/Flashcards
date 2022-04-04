@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="../static/flashcards.js?u={{ last_updated }}"></script>
+
+    <link rel="stylesheet" type="text/css" href="../static/flashcards.css">
+
+   <!-- type="text/javascript" -->
+</head>
+<body>
+        <div class="flash" id="flash">
+                <label id="hello">Hello.</label>
+                
+        </div>
+
+        <div class="flip">
+                <button onclick="flip()" id="flip">Flip</button>
+        </div>
+
+        <div class="controls">
+                <button onclick="correct()" id="correct">Correct</button>
+                <button onclick="incorrect()" id="incorrect">Incorrect</button>
+        </div>
+
+
+        <div class="options">
+                <!--E2C checkbox-->
+                <span class="checkbox">
+                        <input type="checkbox" id = "E2C" value="true">
+                        <label for="checkbox">E2C</label>
+                </span>
+                
+                <!--Missed checkbox
+                <span class="checkbox">
+                        <input type="checkbox" name="missed" id="missed" value="missed">
+                        <label for="missed">Missed</label>
+                </span>
+                -->
+                
+
+                <!--Number of cards entry-->
+                <input type="text" name="number of cards" id="number" size="5">
+                <label for="number">of total</label> 
+        </div>
+
+        <div class="start">
+                <button onclick="start()" autofocus>Start</button>
+        </div>
+
+
+                        
+                
+
+
+        </div>
+
+    
+</body>
+</html>

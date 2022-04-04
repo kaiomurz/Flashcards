@@ -1,0 +1,143 @@
+/* 
+Duke Blue (#000097)
+White (#FFFFFF)
+Red (#FE0000)
+*/
+
+body {
+  background-color: #FE0000;
+  border-color: #000095;
+  border-width: 100px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+button {
+  background-color: #000095;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+
+}
+
+button:hover {
+  background-color:  #60608d;
+}
+
+button:focus {
+  border: none;
+}
+
+div {
+  padding: 20px
+}
+
+/* FLASH DISPLAY STYLES */
+.flash {
+    background-color: #000095;
+    height: 250px;
+}
+
+.ep .pinyin{
+  font-size: 80px;
+  font-style: italic;
+}
+
+.ep .englishC2E{
+  font-size: 80px;
+}
+
+.mp .pinyin{
+  font-size: 70px;
+  font-style: italic;
+}
+
+.mp .mandarin{
+  font-size: 100px; 
+}
+
+.mandarin{
+  font-size: 150px;
+  padding: 0;
+}
+
+.english{
+  font-size: 80px;
+  padding-top: 50px;
+}
+
+#hello{
+  font-size: 100px;
+}
+
+#mandarin{
+  font-size: 150px;
+}
+
+#pinyin{
+  font-size: 80px;
+}
+
+#englishC2E{
+  font-style: italic;
+  font-size: 80px;
+}
+
+.flip {
+  height: 100px;
+}
+
+.flip button {
+  height: 80px;
+  width: 130px;
+  font-size: 50px;
+}
+
+.controls button {
+  height: 40px;
+  width: 130px;
+  font-size: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.start button {
+  height: 60px;
+  width: 130px;
+  font-size: 30px;
+}
+
+.options {
+  font-family: sans-serif;
+}
+
+.options checkbox{
+  margin-right: 10px;
+  margin-left: 10px;
+} 
+/*
+.flash {grid-area: flash;}
+.rest {grid-area: rest;}
+
+.grid_contained {
+    display: grid;
+    grid-areas: 
+        'flash'
+        'flip'
+        'controls'
+        'options'
+        'start'
+}
+*/
+
+/*#flip{
+  background-color: #4CAF50;  Green 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}/*
+
